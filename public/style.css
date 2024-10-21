@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+
+header {
+	background-color: #444;
+	text-align: center;
+	padding: 15px;
+}
+h1 {
+	color: rgb(255, 94, 0);
+}
+header p {
+	color: grey;
+}
+
+.container {
+	width: 1200px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px dotted red;
+}
+.container article {
+	margin: 10px 0;
+	background-color: aliceblue;
+	padding: 10px;
+}
+
+.parent .sticky0 {
+	position: sticky;
+	top: 0;
+	background-color: #f9c;
+}
+
+.parent .static {
+	position: static;
+	background-color: #9c6;
+}
+
+.parent .relativeGauche {
+	position: relative;
+	right: 5em;
+	background-color: #fc3;
+}
+
+.parent .relative {
+	position: relative;
+}
+.parent .sousElementAbsolute {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 30px;
+	background-color: #f93;
+}
+
+.parent .fixed {
+	position: fixed;
+	top: 5px;
+	width: 225px;
+	right: 0;
+	background-color: #69c;
+}
+
+footer {
+	background-color: #444;
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+footer a {
+	color: rgb(255, 94, 0);
+	text-decoration: none;
+}
